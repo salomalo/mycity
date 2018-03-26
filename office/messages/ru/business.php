@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'Business' => 'Предприятия',
+    'My_Businesses' => 'Мои Предприятия',
+    'New_Businesses' => 'Новое Предприятие',
+    'Add_Businesses' => 'Добавить Предприятие',
+    'Create_Business' => 'Создать предприятие',
+    'General_information' => 'Общая информация',
+    'Editing' => 'Редактирование',
+    'Afisha' => 'Aфиша',
+    'Promotions' => 'Акции',
+    'Job' => 'Работа',
+    'Goods' => 'Товары',
+    'Address' => 'Адрес:111',
+    'Phone' => 'Телефон:',
+    'Lat' => 'Широта:',
+    'Lon' => 'Долгота:',
+    'Mo-Fr' => 'Понедельник - Пятница',
+    'from' => 'с',
+    'to' => 'до',
+    'Add_Schedule_podnevno' => 'Добавить расписание подневно',
+    'Add_a_schedule_for_the_weekend' => 'Добавить расписание на выходные дни',
+    'Posts' => 'Новости',
+    'Invoices' => 'Оплаты',
+    'Add_gallery' => 'Галлерея',
+
+    'Add files' => 'Добавить файлы',
+    'Start upload' => 'Начать загрузку',
+    'Cancel upload' => 'Отменить загрузку',
+    'Delete' => 'Удалить',
+    'Start' => 'Начать',
+    'Cancel' => 'Отменить',
+    'Error' => 'Ошибка',
+
+    'The_selected_type_not_supported' => 'Выбраный тип не поддерживается',
+];

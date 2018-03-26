@@ -1,0 +1,30 @@
+.product-comments-block-tab {
+    overflow: hidden;
+}
+.product-comments-block-tab .fa{
+    line-height: inherit;
+}
+.product-comments-block-tab .reviewRating{
+    color: #ff9900;
+}
+.product-comments-block-tab .comment{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px dotted #eaeaea;
+}
+.product-comments-block-tab .comment:first-child{
+    padding-top: 0;
+}
+.product-comments-block-tab .comment:last-child{
+    padding-bottom: 0;
+    border-bottom:none;
+}
+.product-comments-block-tab .comment .author{
+    border-right: 1px solid #eaeaea;
+}
+.product-comments-block-tab .btn-comment{
+    padding: 5px 15px;
+    border: 1px solid #eaeaea;
+    float: left;
+    margin-top: 15px;
+}

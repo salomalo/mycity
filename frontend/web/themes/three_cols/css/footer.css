@@ -1,0 +1,67 @@
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.footer {
+    clear: both;
+    height: 146px;
+    background: #d2d2d2;
+    background: -moz-linear-gradient(top, #d2d2d2 0%, #eeeeee 10%, #eeeeee 90%, #d2d2d2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2d2d2), color-stop(10%,#eeeeee), color-stop(90%,#eeeeee), color-stop(100%,#d2d2d2));
+    background: -webkit-linear-gradient(top, #d2d2d2 0%,#eeeeee 10%,#eeeeee 90%,#d2d2d2 100%);
+    background: -o-linear-gradient(top, #d2d2d2 0%,#eeeeee 10%,#eeeeee 90%,#d2d2d2 100%);
+    background: -ms-linear-gradient(top, #d2d2d2 0%,#eeeeee 10%,#eeeeee 90%,#d2d2d2 100%);
+    background: linear-gradient(to bottom, #d2d2d2 0%,#eeeeee 10%,#eeeeee 90%,#d2d2d2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2d2d2', endColorstr='#d2d2d2',GradientType=0 );
+}
+.footer .footer-block {
+    height: 121px;
+    border-right: 1px solid #d2d2d2;
+    margin-top: 17px;
+}
+
+.footer .footer-block .footer-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #4c4c4e;
+    margin-top: 1px;
+}
+
+.footer .footer-block .logo {
+    width: 63px;
+    height: 60px;
+    margin: 6px 17px 0 0;
+}
+
+.footer .footer-block .link-contact a {
+    font-size: 12px;
+    color: #28779b;
+    display: block;
+}
+
+.footer .footer-block .footer-block-links a {
+    display: block;
+    font-size: 12px;
+    color: #4c4c4e;
+    margin-bottom: 1px;
+}
+
+.footer .footer-block .counters {
+    float: right;
+    margin-right: 30px;
+    border-left: none;
+}
+.footer .footer-block .counters .counter {
+    text-align: center;
+    margin-top: 16px;
+}
+.foot {
+    height: 24px;
+    background: #28779b url(../img/foot.png) center top no-repeat;
+    border-top: 1px solid #fff;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    line-height: 24px;
+    border: 0;
+}

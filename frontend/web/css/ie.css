@@ -1,0 +1,10 @@
+.block-content {
+    background: #d2d2d2;
+    background: -moz-linear-gradient(top,  #d2d2d2 0%, #eeeeee 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2d2d2), color-stop(100%,#eeeeee));
+    background: -webkit-linear-gradient(top,  #d2d2d2 0%,#eeeeee 100%);
+    background: -o-linear-gradient(top,  #d2d2d2 0%,#eeeeee 100%);
+    background: -ms-linear-gradient(top,  #d2d2d2 0%,#eeeeee 100%);
+    background: linear-gradient(to bottom,  #d2d2d2 0%,#eeeeee 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2d2d2', endColorstr='#eeeeee',GradientType=0 );
+}

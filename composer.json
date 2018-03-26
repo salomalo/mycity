@@ -1,0 +1,79 @@
+{
+	"name": "yiisoft/yii2-app-advanced",
+	"description": "Yii 2 Advanced Application Template",
+	"keywords": ["yii2", "framework", "advanced", "application template"],
+	"homepage": "http://www.yiiframework.com/",
+	"type": "project",
+	"license": "BSD-3-Clause",
+	"support": {
+		"issues": "https://github.com/yiisoft/yii2/issues?state=open",
+		"forum": "http://www.yiiframework.com/forum/",
+		"wiki": "http://www.yiiframework.com/wiki/",
+		"irc": "irc://irc.freenode.net/yii",
+		"source": "https://github.com/yiisoft/yii2"
+	},
+	"minimum-stability": "dev",
+  	"prefer-stable": true,
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "2.0.8",
+		"yiisoft/yii2-bootstrap": "*",
+		"yiisoft/yii2-swiftmailer": "*",
+		"yiisoft/yii2-mongodb": "*",
+		"yiisoft/yii2-sphinx": "*",
+		"kartik-v/yii2-widgets": "*",
+		"kartik-v/yii2-popover-x": "*",
+		"mihaildev/yii2-elfinder": "*",
+		"mihaildev/yii2-ckeditor": "*",
+		"2amigos/yii2-transliterator-helper": "*",
+		"mag/s3": "*",
+		"sybio/image-workshop":"*",
+		"fxp/composer-asset-plugin": "@dev",
+		"bower-asset/jquery": "2.1.*",
+		"creocoder/yii2-nested-sets": "*",
+		"kartik-v/yii2-tree-manager": "@dev",
+		"dektrium/yii2-user": "0.9.*@dev",
+		"composer-plugin-api": "^1.0",
+		"guzzlehttp/guzzle": "^6.2",
+		"electrolinux/phpquery": "^0.9.6",
+		"denisogr/yii2-cronjobs": "dev-master",
+		"miloschuman/yii2-highcharts-widget": "dev-master",
+		"kartik-v/yii2-widget-select2": "2.0.x-dev",
+		"kartik-v/yii2-widget-colorinput": "1.0.x-dev"
+	},
+	"require-dev": {
+		"yiisoft/yii2-codeception": "*",
+		"yiisoft/yii2-debug": "*",
+		"yiisoft/yii2-gii": "*",
+		"yiisoft/yii2-faker": "*"
+	},
+	"suggest": {
+		"codeception/codeception": "Codeception, 1.8.*@dev is currently works well with Yii.",
+		"codeception/specify": "BDD style code blocks for PHPUnit and Codeception",
+		"codeception/verify": "BDD Assertions for PHPUnit and Codeception"
+	},
+	"scripts": {
+		"post-create-project-cmd": [
+			"yii\\composer\\Installer::setPermission"
+		]
+	},
+	"config": {
+		"process-timeout": 1800
+	},
+	"extra": {
+		"writable": [
+			"backend/runtime",
+			"backend/web/assets",
+
+			"console/runtime",
+			"console/migrations",
+
+			"frontend/runtime",
+			"frontend/web/assets"
+		],
+		"asset-installer-paths": {
+			"npm-asset-library": "vendor/npm",
+			"bower-asset-library": "vendor/bower"
+		}
+	}
+}

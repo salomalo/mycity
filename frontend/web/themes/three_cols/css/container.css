@@ -1,0 +1,39 @@
+.block {
+    width: 239px;
+}
+
+.index-block.fix-height {
+    height: 780px;
+}
+
+.main {
+    width: 98%;
+}
+
+.map_icon {
+    height: 84px;
+}
+
+.map_mini_icon {
+    height: 24px;
+}
+
+.map_link {
+    text-decoration: none;
+}
+
+#content {
+    width: 64%;
+}
+.col-sm-2.fixed {
+    min-width: 240px;
+    padding: 0;
+}
+
+#map-canvas {
+    clear: both;
+    min-width: 730px;
+}
+.list-head {
+    min-width: 730px;
+}

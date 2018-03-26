@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MyCity" description="MyCity build system" basedir=".." default="development">
+    <property name="tmpDir" value="/tmp/mycity" override="true"/>
+    <property name="gitRepository" value="git@bitbucket.org:3dmaxpayne/mycity.git" override="true" />
+    <property name="projectDir" value="/var/www/2" override="true"/>
+    <property name="filesOwner" value="www-data:www-data" override="true"/>
+
+    <target name="helpMessage">
+        <echo msg="helpMessage" />
+    </target>
+
+    <target name="gitPull">
+        <gitpull
+                repository="${projectDir}"
+                source="origin" refspec="master"
+                strategy="recursive" keep="true"
+                force="true" quiet="true" rebase="true" />
+    </target>
+
+    <target name="updateComposer">
+        <echo>Update composer...</echo>
+        <exec command="cd ${projectDir}; composer update" outputProperty="composer"/>
+        <echo msg="${composer}" />
+    </target>
+
+    <target name="changePermissions">
+        <echo>Changing permissions to files...</echo>
+        <exec command="chown ${filesOwner} ${projectDir}/ -Rf" />
+        <exec command="chmod 764 ${projectDir}/ -Rf" />
+    </target>
+
+    <target name="databaseMigrate">
+        <echo>Start migrations...</echo>
+        <exec command="${projectDir}/php yii migrateall" outputProperty="copy_output" />
+        <echo msg="${copy_output}" />
+    </target>
+
+
+    <!-- Main tasks -->
+    <target name="development" description="build development version"
+            depends="gitPull, updateComposer, changePermissions, databaseMigrate">
+        <exec command="date '+%F %T'" outputProperty="current_date"/>
+    </target>
+</project>

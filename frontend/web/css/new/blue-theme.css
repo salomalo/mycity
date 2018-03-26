@@ -1,0 +1,439 @@
+.list-group-item.super-list-active,
+.list-group-item.super-list-active:focus,
+.list-group-item.super-list-active:hover,
+.list-group-item.active-super-list,
+.list-group-item.active-super-list:hover,
+.list-group-item.active-super-list:focus,
+.listing-detail-property-amenities ul li.yes a{
+    background-color: #248dc1!important;
+    border-color: #248dc1 !important;
+}
+
+a,
+header a,
+blockquote footer,
+blockquote cite,
+.background-primary,
+.background-secondary,
+.sobitie .characters .mesto a,
+.my-color-link,
+.rasp .kinoteatr .other a,
+.sobitie .characters .where-other a,
+.related-news-title,
+.full-akcia .related-akcia-characters .related-akcia-cat,
+.full-akcia .related-akcia-characters .related-akcia-mesto a,
+.btn.btn-primary .badge,
+.btn.button .badge,
+input.button[type=submit] .badge,
+button.button .badge,
+.cmb-row.postbox .button.cmb-remove-group-row .badge,
+.button.listing-create .badge,
+.listings-slider-item-info-more a.button .badge,
+.button.payment-process .badge,
+.inventor-slider-item-info-button a.button .badge,
+input[type=submit] .badge, button .badge,
+.btn.fileinput-upload-button .badge,
+input.fileinput-upload-button[type=submit] .badge,
+button.fileinput-upload-button .badge,
+.cmb-row.postbox .fileinput-upload-button.cmb-remove-group-row .badge,
+.fileinput-upload-button.listing-create .badge,
+.listings-slider-item-info-more a.fileinput-upload-button .badge,
+.fileinput-upload-button.payment-process .badge,
+.inventor-slider-item-info-button a.fileinput-upload-button .badge,
+.ui-datepicker-buttonpane button .badge,
+.cmb-row.postbox .btn-primary.cmb-remove-group-row .badge,
+.cmb-row.postbox input.cmb-remove-group-row[type=submit] .badge,
+.cmb-row.postbox button.cmb-remove-group-row .badge,
+.cmb-row.postbox .cmb-remove-group-row.listing-create .badge,
+.cmb-row.postbox .listing-detail-gallery-preview .cmb-remove-group-row.owl-next .badge,
+.listing-detail-gallery-preview .cmb-row.postbox .cmb-remove-group-row.owl-next .badge,
+.cmb-row.postbox .listing-detail-gallery-preview .cmb-remove-group-row.owl-prev .badge,
+.listing-detail-gallery-preview .cmb-row.postbox .cmb-remove-group-row.owl-prev .badge,
+.cmb-row.postbox .listings-slider-item-info-more a.cmb-remove-group-row .badge,
+.listings-slider-item-info-more .cmb-row.postbox a.cmb-remove-group-row .badge,
+.cmb-row.postbox .coupon-detail-gallery-preview .cmb-remove-group-row.owl-next .badge,
+.coupon-detail-gallery-preview .cmb-row.postbox .cmb-remove-group-row.owl-next .badge,
+.cmb-row.postbox .coupon-detail-gallery-preview .cmb-remove-group-row.owl-prev .badge,
+.coupon-detail-gallery-preview .cmb-row.postbox .cmb-remove-group-row.owl-prev .badge,
+.cmb-row.postbox .inventor-slider-item-info-button a.cmb-remove-group-row .badge,
+.inventor-slider-item-info-button .cmb-row.postbox a.cmb-remove-group-row .badge,
+.listing-create .badge,
+.listing-detail-gallery-preview .btn.owl-next .badge,
+.listing-detail-gallery-preview input.owl-next[type=submit] .badge,
+.listing-detail-gallery-preview button.owl-next .badge,
+.listing-detail-gallery-preview .owl-next.listing-create .badge,
+.listing-detail-gallery-preview .listings-slider-item-info-more a.owl-next .badge,
+.listings-slider-item-info-more .listing-detail-gallery-preview a.owl-next .badge,
+.listing-detail-gallery-preview .owl-next.payment-process .badge,
+.listing-detail-gallery-preview .inventor-slider-item-info-button a.owl-next .badge,
+.inventor-slider-item-info-button .listing-detail-gallery-preview a.owl-next .badge,
+.listing-detail-gallery-preview .btn.owl-prev .badge,
+.listing-detail-gallery-preview input.owl-prev[type=submit] .badge,
+.listing-detail-gallery-preview button.owl-prev .badge,
+.listing-detail-gallery-preview .owl-prev.listing-create .badge,
+.listing-detail-gallery-preview .listings-slider-item-info-more a.owl-prev .badge,
+.listings-slider-item-info-more .listing-detail-gallery-preview a.owl-prev .badge,
+.listing-detail-gallery-preview .owl-prev.payment-process .badge,
+.listing-detail-gallery-preview .inventor-slider-item-info-button a.owl-prev .badge,
+.inventor-slider-item-info-button .listing-detail-gallery-preview a.owl-prev .badge,
+.listings-slider-item-info-more a .badge, .btn-primary.payment-process .badge,
+input.payment-process[type=submit] .badge, button.payment-process .badge,
+.payment-process.listing-create .badge,
+.listings-slider-item-info-more a.payment-process .badge,
+.coupon-detail-gallery-preview .payment-process.owl-next .badge,
+.coupon-detail-gallery-preview .payment-process.owl-prev .badge,
+.inventor-slider-item-info-button a.payment-process .badge,
+.coupon-detail-gallery-preview .btn.owl-next .badge,
+.coupon-detail-gallery-preview input.owl-next[type=submit] .badge,
+.coupon-detail-gallery-preview button.owl-next .badge,
+.coupon-detail-gallery-preview .owl-next.listing-create .badge,
+.coupon-detail-gallery-preview .listings-slider-item-info-more a.owl-next .badge,
+.listings-slider-item-info-more .coupon-detail-gallery-preview a.owl-next .badge,
+.coupon-detail-gallery-preview .inventor-slider-item-info-button a.owl-next .badge,
+.inventor-slider-item-info-button .coupon-detail-gallery-preview a.owl-next .badge,
+.coupon-detail-gallery-preview .btn.owl-prev .badge,
+.coupon-detail-gallery-preview input.owl-prev[type=submit] .badge,
+.coupon-detail-gallery-preview button.owl-prev .badge,
+.coupon-detail-gallery-preview .owl-prev.listing-create .badge,
+.coupon-detail-gallery-preview .listings-slider-item-info-more a.owl-prev .badge,
+.listings-slider-item-info-more .coupon-detail-gallery-preview a.owl-prev .badge,
+.coupon-detail-gallery-preview .inventor-slider-item-info-button a.owl-prev .badge,
+.inventor-slider-item-info-button .coupon-detail-gallery-preview a.owl-prev .badge,
+.inventor-slider-item-info-button a .badge,
+.btn.btn-secondary .badge,
+input.btn-secondary[type=submit] .badge,
+input[type=submit]#cancel-comment-reply-link .badge,
+button.btn-secondary .badge, button#cancel-comment-reply-link .badge,
+.ui-datepicker-buttonpane button.btn-secondary .badge,
+.cmb-row.postbox .btn-secondary.cmb-remove-group-row .badge,
+.cmb-row.postbox .cmb-remove-group-row#cancel-comment-reply-link .badge,
+.btn-secondary.listing-create .badge, .listing-create#cancel-comment-reply-link .badge,
+.listings-slider-item-info-more a.btn-secondary .badge,
+.listings-slider-item-info-more a#cancel-comment-reply-link .badge,
+.btn#cancel-comment-reply-link .badge, #cancel-comment-reply-link.payment-process .badge,
+.inventor-slider-item-info-button a#cancel-comment-reply-link .badge, .btn-secondary.payment-process .badge,
+.inventor-slider-item-info-button a.btn-secondary .badge,
+.not-found .number,
+h3.registration-title,
+.bootstrap-select .dropdown-menu > .active > a,
+.file-input .file-caption-name .kv-caption-icon,
+.header-bar-inner .fa,
+.header-logo i.superlist-logo,
+.header-navigation .nav > li > a:hover,
+.header-navigation .footer-top .widget.widget_nav_menu ul > li > a:hover,
+.footer-top .widget.widget_nav_menu .header-navigation ul > li > a:hover,
+.header-navigation .footer-bottom .widget.widget_nav_menu ul > li > a:hover,
+.footer-bottom .widget.widget_nav_menu .header-navigation ul > li > a:hover,
+.header-navigation .nav > li.active > a,
+.header-navigation .footer-top .widget.widget_nav_menu ul > li.active > a,
+.footer-top .widget.widget_nav_menu .header-navigation ul > li.active > a,
+.header-navigation .footer-bottom .widget.widget_nav_menu ul > li.active > a,
+.footer-bottom .widget.widget_nav_menu .header-navigation ul > li.active > a,
+.header-navigation .nav > li .sub-menu li a:hover,
+.header-navigation .footer-top .widget.widget_nav_menu ul > li .sub-menu li a:hover,
+.footer-top .widget.widget_nav_menu .header-navigation ul > li .sub-menu li a:hover,
+.header-navigation .footer-bottom .widget.widget_nav_menu ul > li .sub-menu li a:hover,
+.footer-bottom .widget.widget_nav_menu .header-navigation ul > li .sub-menu li a:hover,
+.header-navigation .nav > li .sub-menu li:hover > a,
+.header-navigation .footer-top .widget.widget_nav_menu ul > li .sub-menu li:hover > a,
+.footer-top .widget.widget_nav_menu .header-navigation ul > li .sub-menu li:hover > a,
+.header-navigation .footer-bottom .widget.widget_nav_menu ul > li .sub-menu li:hover > a,
+.footer-bottom .widget.widget_nav_menu .header-navigation ul > li .sub-menu li:hover > a,
+.header-navigation .nav li.active a:hover, .header-navigation .footer-top .widget.widget_nav_menu ul li.active a:hover, .footer-top .widget.widget_nav_menu .header-navigation ul li.active a:hover, .header-navigation .footer-bottom .widget.widget_nav_menu ul li.active a:hover, .footer-bottom .widget.widget_nav_menu .header-navigation ul li.active a:hover,
+.widget.widget_archive ul li a:hover, .widget.widget_categories ul li a:hover, .widget.widget_pages ul li a:hover, .widget.widget_nav_menu ul li a:hover, .widget.widget_recent_entries ul li a:hover, .widget.widget_meta ul li a:hover,
+.widget.widget_archive ul li a strong, .widget.widget_categories ul li a strong, .widget.widget_pages ul li a strong, .widget.widget_nav_menu ul li a strong, .widget.widget_recent_entries ul li a strong, .widget.widget_meta ul li a strong,
+.footer-area dl .fa,
+.widget.widget_call_to_action i,
+.footer-area .widget.widget_nav_menu ul li a:hover,
+.footer-top .widget.widget_nav_menu .menu li a:hover,
+.infobox-inner .close:hover i,
+.infobox-title h2 a:hover,
+.listing-column-bottom-title,
+.infobox-title .comment-reply-title a:hover,
+.listing-small-title a:hover,
+.footer .listing-small-title a:hover,
+.footer .listing-small-location a:hover,
+.listing-masonry-actions .fa.marked.fa-bookmark-o:before,
+.listing-system-row-title a:hover,
+.listing-system-row-location a:hover,
+:hover .listing-system-row-location:before,
+.listing-author-name a:hover,
+#listing-detail-section-social a:hover,
+.widget_listing_details .inventor-statistics-total-post-views i,
+.listing-system-row-submission-actions button:hover,
+.opening-hours td.open,
+.listing-detail-food-price,
+.detail-banner .detail-banner-btn.bookmark.marked i:before,
+.detail-banner .bookmark.marked.inventor-favorites-btn-toggle i:before,
+.detail-banner .bookmark.marked.inventor-jobs-apply-btn i:before,
+.detail-banner .bookmark.marked.print-listing i:before,
+.detail-banner .bookmark.marked.share-listing i:before,
+.post-content h2 a:hover,
+.post-content .comment-reply-title a:hover,
+.post-meta-author .fa,
+.post-meta-date .fa,
+.post-meta-categories .fa,
+.post-meta-comments .fa,
+.filter-actions a:hover,
+.filter-result-numbers span.match,
+.inventor-watchdog-btn i,
+.inventor-watchdog-btn:active,
+.inventor-watchdog-btn:focus,
+.inventor-watchdog-btn:hover,
+.widget_faq .faq-item-wrapper .faq-item .faq-item-question h2 a,
+.widget_faq .faq-item-wrapper .faq-item .faq-item-question .comment-reply-title a,
+.widget_faq .faq-item-wrapper .faq-item .faq-item-question h2 a:hover,
+.widget_faq .faq-item-wrapper .faq-item .faq-item-question .comment-reply-title a:hover,
+.widget_faq .faq-item-wrapper .faq-item .faq-item-question h2 a:after,
+.widget_faq .faq-item-wrapper .faq-item .faq-item-question .comment-reply-title a:after,
+.tab-content li a:hover,
+.tab-content li a:before,
+.box-icon,
+.footer .box-icon,
+.box-body .box-read-more,
+.review-content .review-pros:before,
+.comment-reply-link i,
+.comment-reply-link:hover,
+.payment-back a:hover,
+.package button,
+.package button:active,
+.package button:focus,
+.package button:hover,
+.widget .submission-steps .submission-step a:hover,
+.widget .submission-steps .submission-step .submission-step-index,
+.coupon-small-content h2 a:active,
+.coupon-small-content .comment-reply-title a:active,
+.coupon-small-content h2 a:focus,
+.coupon-small-content .comment-reply-title a:focus,
+.coupon-box-content h2 a:active,
+.coupon-box-content .comment-reply-title a:active,
+.coupon-box-content h2 a:focus,
+.coupon-box-content .comment-reply-title a:focus,
+.user-banner-listings-count:before,
+.user-card-listings-count:before,
+.user-small-listings-count:before,
+.user-small-name a:hover,
+.applicant-resume-title:before,
+.applicant-user-name a:hover,
+.listing-small-price,
+.listing-column-title span:before,
+.full-akcia .related-akcia-characters .related-akcia-title{
+    color: #248dc1;
+}
+
+.profile-menu,
+.submission-step-title h1:before,
+.applicant-container:before,
+.author-content h1:after,
+.detail-label,
+.user-container:before,
+.widget .submission-steps .submission-step.current .submission-step-index,
+.submission-choose-type ul li a:hover,
+.watchdog-lookup dt,
+.box-body a.fa,
+.box-body a .fa,
+.faq-item:before,
+.page-links .page-numbers,
+.post-detail .post-meta-tags .tag,
+.post-detail .post-meta-tags .tag:before,
+.bg-light-green,
+.listing-detail-food-serving.today,
+.color-style-background-mint,
+.post-detail h3.cmb2-metabox-title:after, h3.cmb2-metabox-title:after,
+.header-bar,
+.header-navigation .nav > li.current-menu-item:after,
+.header-navigation .footer-top .widget.widget_nav_menu ul > li.current-menu-item:after,
+.footer-top .widget.widget_nav_menu .header-navigation ul > li.current-menu-item:after,
+.header-navigation .footer-bottom .widget.widget_nav_menu ul > li.current-menu-item:after,
+.footer-bottom .widget.widget_nav_menu .header-navigation ul > li.current-menu-item:after,
+.btn-primary,
+.button,
+input[type=submit],
+button,
+.fileinput-upload-button,
+.listing-detail-property-valuation dd .bar-valuation,
+.detail-banner .detail-label,
+.listing-create,
+.listing-detail-gallery-preview .owl-next,
+.listing-detail-gallery-preview .owl-prev,
+.listings-slider-item-info-more a,
+.coupon-detail-gallery-preview .owl-next,
+.coupon-detail-gallery-preview .owl-prev,
+.inventor-slider-item-info-button a,
+.header-navigation .nav > li .sub-menu li:hover > .sub-menu:before,
+.header-navigation .footer-top .widget.widget_nav_menu ul > li .sub-menu li:hover > .sub-menu:before,
+.footer-top .widget.widget_nav_menu .header-navigation ul > li .sub-menu li:hover > .sub-menu:before,
+.header-navigation .footer-bottom .widget.widget_nav_menu ul > li .sub-menu li:hover > .sub-menu:before,
+.footer-bottom .widget.widget_nav_menu .header-navigation ul > li .sub-menu li:hover > .sub-menu:before,
+.header-action-inner,
+.widget .widgettitle:after,
+.widget .tagcloud a,
+.widget .tagcloud a:before,
+.listing-row-label-top.listing-row-label-top-left,
+.footer-top .widget .widgettitle:before,
+.footer-bottom .widget .widgettitle:before,
+.footer-top .widget.widget_nav_menu .menu li a i,
+.listing-categories-card-image i,
+.pagination .page-numbers:hover,
+.listing-small-image a:hover:before,
+.listing-masonry-label-top,
+.listing-detail-gallery-preview .owl-next:hover,
+.listing-detail-gallery-preview .owl-prev:hover
+.marker:after,
+.simple-marker:after,
+.simple-marker-primary:after,
+#banner-map .banner-marker:after,
+#banner-street-view .banner-marker:after,
+#listing-detail-location li.active a,
+#listing-detail-location li.active a:hover,
+#listing-detail-location li.directions a,
+.post-label,
+.pricing-inner.highlighted .pricing-header,
+.action-bar-title,
+.action-bar-title:focus,
+.action-bar-title:hover,
+.coupon-detail-gallery-preview .owl-next:hover,
+.coupon-detail-gallery-preview .owl-prev:hover,
+.map-switch,
+#banner-inside-view .banner-marker:after,
+.block-title,
+#pfpostitemlink a .postanitem-inner,
+.listing-column-label-custom,
+.listing-column:hover .listing-column-title {
+    background-color: #248dc1;
+}
+
+.btn-primary:active, .button:active, input[type=submit]:active, button:active, .fileinput-upload-button:active, .listing-create:active, .listing-detail-gallery-preview .owl-next:active, .listing-detail-gallery-preview .owl-prev:active, .listings-slider-item-info-more a:active, .coupon-detail-gallery-preview .owl-next:active, .coupon-detail-gallery-preview .owl-prev:active, .inventor-slider-item-info-button a:active, .btn-primary:focus, .button:focus, input[type=submit]:focus, button:focus, .fileinput-upload-button:focus, .listing-create:focus, .listing-detail-gallery-preview .owl-next:focus, .listing-detail-gallery-preview .owl-prev:focus, .listings-slider-item-info-more a:focus, .coupon-detail-gallery-preview .owl-next:focus, .coupon-detail-gallery-preview .owl-prev:focus, .inventor-slider-item-info-button a:focus, .btn-primary:hover, .button:hover, input[type=submit]:hover, button:hover, .fileinput-upload-button:hover, .listing-create:hover, .listing-detail-gallery-preview .owl-next:hover, .listing-detail-gallery-preview .owl-prev:hover, .listings-slider-item-info-more a:hover, .coupon-detail-gallery-preview .owl-next:hover, .coupon-detail-gallery-preview .owl-prev:hover, .inventor-slider-item-info-button a:hover,
+.color-style-background-mint{
+    background-color: #248dc1 !important;
+}
+
+.footer-area .widget.widget_nav_menu ul li a:hover,
+.listing-small-title a:hover,
+.footer .listing-small-title a:hover,
+.footer .listing-small-location a:hover{
+    color: #248dc1; !important;
+}
+
+.my-color-link{
+    color: #248dc1 !important;
+}
+
+.bg-light-green{
+    background-color: #248dc1 !important;
+}
+
+.page-header p a,
+.listing-author-contact a,
+.payment-back a,
+.package button{
+    border-bottom: 1px solid #248dc1 !important;
+}
+
+.cmb-type-opening-hours thead th {
+    background-color: #248dc1;
+    border: 1px solid #248dc1;
+}
+
+.header-sticky .header-wrapper.affix {
+    border-top: solid 2px #248dc1;
+}
+
+.listing-categories-card-image a {
+    border-bottom: solid 4px #248dc1;
+}
+
+.pagination .page-numbers.current,
+.listing-system-row-submission-actions button:hover,
+.listing-detail-gallery-preview .owl-item.highlighted div,
+.pricing-inner.highlighted,
+.package button:active,
+.package button:focus,
+.package button:hover,
+.coupon-detail-gallery-preview .owl-item.highlighted {
+    border-color: #248dc1;
+}
+
+.marker-inventor-poi-inner {
+    border: 3px solid #248dc1;
+}
+
+.clusterer {
+    border: 2px solid #248dc1;
+}
+
+.listing-row.featured,
+.post.sticky{
+    border: 1px solid #248dc1;
+}
+
+.listing-detail-section-faq-list dd {
+    border-left: 2px solid #248dc1;
+}
+
+.listing-detail-menu ul li.active a,
+.listing-detail-gallery-preview .owl-item.highlighted div:hover {
+    border-bottom: 2px solid #248dc1;
+}
+
+.faq-item:after {
+    border-bottom-color: #248dc1;
+}
+
+.detail-banner.detail-banner-simple {
+    background-color: #248dc1;
+}
+
+.detail-banner .detail-label a,
+.header-bar-inner ul.menu li.menu-item a i,
+.header-bar-inner ul.menu li.menu-item a,
+.listing-detail-menu ul li a:active,
+.listing-detail-menu ul li a:focus,
+.listing-detail-menu ul li a,
+.listing-detail-menu ul li a:hover,
+.map-actions a,
+.filter-sorting-inner ul li a.active,
+.detail-banner .detail-banner-btn,
+.detail-banner .inventor-favorites-btn-toggle,
+.detail-banner .inventor-jobs-apply-btn,
+.detail-banner .print-listing,
+.detail-banner .share-listing,
+.btn-primary,
+.button, input[type=submit],
+button,
+.fileinput-upload-button, .listing-create,
+.listing-detail-gallery-preview .owl-next,
+.listing-detail-gallery-preview .owl-prev,
+.listings-slider-item-info-more a,
+.coupon-detail-gallery-preview .owl-next,
+.coupon-detail-gallery-preview .owl-prev,
+#listing-detail-location li.active a,
+.pagination .page-numbers.current,
+ul.dropdown-menu li a i,
+.header-bar-inner .fa,
+.inventor-slider-item-info-button a,
+.header-bar-inner .widget .menu li a:hover,
+a.profile-menu-link{
+    color: #fff;
+}
+
+.filter-sorting-inner ul li a,
+.pagination .page-numbers{
+    color: #868686;
+}
+
+.header-navigation .nav > li > a, .header-navigation .footer-top .widget.widget_nav_menu ul > li > a, .footer-top .widget.widget_nav_menu .header-navigation ul > li > a, .header-navigation .footer-bottom .widget.widget_nav_menu ul > li > a, .footer-bottom .widget.widget_nav_menu .header-navigation ul > li > a {
+    color: #444;
+}
+
+.owl-carousel .item .item-detail-line a{
+    color: #333333;
+}
+
+a.list-group-item, button.list-group-item {
+    color: #555;
+}
+
+.dropdown-menu  li  a:hover, .dropdown-menu  li  a:focus{
+    background-color: #248dc1;
+}

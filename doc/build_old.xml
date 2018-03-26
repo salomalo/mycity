@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MyCity" description="MyCity build system" basedir=".." default="helpMessage">
+    <property name="tmpDir" value="/tmp/mycity" override="true"/>
+    <property name="gitRepository" value="git@bitbucket.org:3dmaxpayne/mycity.git" override="true" />
+    <property name="projectDir" value="/var/www/2" override="true"/>
+    <property name="filesOwner" value="www-data:www-data" override="true"/>
+
+    <target name="rootCheck" description="From whom was script start?">
+        <exec command="whoami" outputProperty="runAsUser"/>
+        <echo msg="You are started this build system as ${runAsUser}"/>
+        <if>
+            <equals arg1="${runAsUser}" arg2="root" />
+            <then>
+                <property name="isRoot" value="true" override="true"/>
+            </then>
+            <else>
+                <property name="isNotRoot" value="true" override="true"/>
+            </else>
+        </if>
+        <fail if="isNotRoot" message="You are not root. You should start this build system as root!" />
+    </target>
+
+    <target name="gitClone">
+        <echo>Prepare and clean up git directory...</echo>
+        <delete dir="${tmpDir}" />
+        <mkdir dir="${tmpDir}" />
+        <echo>Cloning git repo from ${gitRepository} ...</echo>
+        <gitclone
+                repository="${gitRepository}"
+                targetPath="${tmpDir}" />
+    </target>
+
+    <target name="gitCheckoutDevelopmentBranch">
+        <gitcheckout
+                repository="${tmpDir}"
+                branchname="development" quiet="true" create="true" />
+        <gitpull
+                repository="${tmpDir}"
+                source="origin" refspec="development"
+                strategy="recursive" keep="true"
+                force="true" quiet="true" rebase="true" />
+    </target>
+
+    <target name="updateComposer">
+        <echo>Update composer...</echo>
+        <exec command="cd ${tmpDir}; composer update" outputProperty="composer"/>
+        <echo msg="${composer}" />
+    </target>
+
+    <target name="removeTempFiles">
+        <echo>Clearing cache and log files...</echo>
+        <delete dir="${tmpDir}/.git" />
+        <delete file="${tmpDir}/.gitignore" />
+    </target>
+
+    <target name="copyDevelopmentVersionFiles">
+        <echo>Copying files...</echo>
+
+        <delete dir="${projectDir}" />
+        <mkdir dir="${projectDir}" />
+        <copy todir="${projectDir}" overwrite="true" >
+            <fileset dir="${tmpDir}" />
+        </copy>
+    </target>
+
+    <target name="changePermissions">
+        <echo>Changing permissions to files...</echo>
+        <exec command="chown ${filesOwner} ${projectDir}/ -Rf" />
+        <exec command="chmod 764 ${projectDir}/ -Rf" />
+    </target>
+
+    <target name="applyEnvironment">
+        <echo>Apply Environment...</echo>
+        <exec command="cd ${projectDir};php init --env=Production" />
+    </target>
+
+    <target name="databaseMigrate">
+        <echo>Start migrations...</echo>
+        <exec command="${projectDir}/php yii migrateall" outputProperty="copy_output" />
+        <echo msg="${copy_output}" />
+    </target>
+
+
+    <!-- Main tasks -->
+    <target name="development" description="build development version"
+            depends="rootCheck, gitClone, copyDevelopmentVersionFiles, updateComposer,removeTempFiles, changePermissions, applyEnvironment, databaseMigrate">
+        <exec command="date '+%F %T'" outputProperty="current_date"/>
+    </target>
+</project>

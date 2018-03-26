@@ -1,0 +1,31 @@
+#support_button {
+    position:fixed;
+    z-index: 1000;
+    right: 10px;
+    bottom: 10px;
+    width: 200px;
+    height: 36px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: inset 0 0 1px rgba(206, 206, 206, 0.5);
+    background: #3c8dbc;
+}
+
+#support_button img {
+    height: 36px;
+    width: 36px;
+}
+
+#support_chat {
+    position:fixed;
+    z-index: 1000;
+    right: 10px;
+    bottom: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+#support_chat div.box-header:hover {
+    background-color: rgba(46, 112, 148, 0.2);
+}

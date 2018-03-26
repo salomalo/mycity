@@ -1,0 +1,84 @@
+.multi_select_lexa {
+    position: relative;
+    min-height: 36px;
+    height: auto !important;
+}
+
+/*.multi_select_lexa input,*/
+.multi_select_lexa select {
+    display: none;
+}
+
+.multi_select_lexa .slct {
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    cursor: pointer;
+}
+
+.multi_select_lexa .ul_saerch {
+    margin: 0;
+    overflow-y: auto;
+    height: 36px;
+    width: 100%;
+    padding: 0 12px;
+    border: 1px solid #a2d6ea;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background: #f5f5f5;
+    box-shadow: 0px 2px 3px 0px rgba(18, 84, 124, 0.4);
+    border-radius: 0 0 3px 3px;
+    z-index: 40;
+}
+
+.multi_select_lexa .drop {
+    margin: 0;
+    overflow-y: auto;
+    height: 150px;
+    width: 100%;
+    padding: 0 12px;
+    border: 1px solid #a2d6ea;
+    display: none;
+    position: absolute;
+    top: 73px;
+    left: 0;
+    background: #f5f5f5;
+    box-shadow: 0px 2px 3px 0px rgba(18, 84, 124, 0.4);
+    border-radius: 0 0 3px 3px;
+    z-index: 40;
+}
+
+.multi_select_lexa li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.multi_select_lexa .drop li:hover {
+    background: #ccc;
+}
+
+.multi_select_lexa ul.slct li {
+    display: inline-block;
+    padding: 0 5px 0 5px;
+    margin: 1px 0;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    margin-right: 3px;
+    cursor: default;
+}
+
+.multi_select_lexa ul.slct li .remove:hover {
+    opacity: 0.5;
+    color: red;
+    cursor: pointer;
+}
+
+.multi_select_lexa ul.slct li.placeholder {
+    display: inline-block;
+    padding: 0 5px 0 5px;
+    margin: 1px 0;
+    border: none;
+    cursor: pointer;
+}

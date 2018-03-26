@@ -1,0 +1,11 @@
+.future-event {
+    height: 260px;
+    text-align: center;
+}
+
+.future-event-title {
+    word-wrap: normal;
+    overflow: hidden;
+    height: 36px;
+    margin-bottom: 4px;
+}

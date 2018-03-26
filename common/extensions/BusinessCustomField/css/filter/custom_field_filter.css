@@ -1,0 +1,60 @@
+.cf_filter_block {
+    margin: 20px 0 20px 0;
+    width: 210px;
+    border-top: 1px dashed #aeb0b3;
+}
+
+.cf_filter_spoiler {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    color: #34495e;
+}
+
+.cf_filter_item {
+    border-bottom: 1px dashed #8e9093;
+    margin: 10px 0 10px 0;
+}
+
+.cf_filter_spoiler_block .form-group {
+    margin: 5px 0 5px 0;
+    width: 200px;
+}
+
+.cf_filter_spoiler_block input[type = "text"],
+.cf_filter_block button[type = "submit"],
+.cf_filter_block button[type = "reset"] {
+    width: 180px;
+}
+
+.cf_filter_block button[type = "submit"],
+.cf_filter_block button[type = "reset"] {
+    height: 20px;
+}
+
+.cf_filter_spoiler_block .dual-input input[type = "text"] {
+    width: 80px;
+}
+
+.cf_filter_spoiler_block .dual-input {
+    margin-left: 0;
+}
+
+.cf_filter_spoiler_block input[type = "checkbox"]{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    top: -5px;
+}
+
+.cf_filter_spoiler_block .checkbox label {
+    margin-left: 5px;
+}
+
+.cf_filter_spoiler_block .checkbox label span {
+    margin-left: 5px;
+}
+
+.cf_filter_block .form-group {
+    margin-bottom: 10px;
+}

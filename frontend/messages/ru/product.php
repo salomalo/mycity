@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'Goods' => 'Товары',
+    'Price' => 'Цена:',
+    'Buy_in_store' => 'Купить в магазинах',
+    'Popular_goods' => 'Популярные товары',
+    'Show_All_Categories' => 'Показать все рубрики',
+    'Offers' => 'Предложений:',
+    'All_goods' => 'Все товары',
+    'Products_Categories' => 'Категории Товаров',
+    'Choose_the_parameters' => 'Подобрать по параметрам',
+    'Price_range' => 'Ценовой диапазон:',
+    'Companies' => 'Компании:',
+    'Show_all_options' => 'Показать все варианты',
+    'Compare_prices' => 'Сравнить цены',
+    'Buy' => 'Купить',
+    'No_price_offers' => 'Нет ценовых предложений.',
+    'Select_store' => 'Выбрать магазин',
+    'Specifications' => 'Технические характеристики',
+    'Photo' => 'Фото',
+    'Video' => 'Видео',
+    'Prices_in_shops' => 'Цены в магазинах',
+    'Similar_products_from_the_category' => 'Похожие товары из рубрики',
+    'Manufacturer' => 'Производитель',
+    'pattern' => 'Модель',
+    'Detailed_Specifications' => 'Подробные характеристики',
+    'Gallery' => 'Фотогалерея',
+    'Video_Gallery' => 'Видеогалерея',
+    'Product' => 'Товары',
+
+];

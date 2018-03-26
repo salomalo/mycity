@@ -1,0 +1,209 @@
+.dark-text {
+    color: #000000;
+}
+.align-center {
+    text-align: center;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.forest {
+    font-family: "PT Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1d1d1d;
+    line-height: 1.5625;
+}
+
+.forest ::selection {
+    color: #ffffff;
+    background-color: #1ac6ff;
+}
+
+.forest .btn.btn-outline-color, .forest button:not(.default).btn-outline-color, .forest input[type=button]:not(.default).btn-outline-color, .forest input[type=submit]:not(.default).btn-outline-color, .forest .fixed-menu .navigation-header .btn.btn-outline, .forest .navigation-header.white-header .btn.btn-outline {
+    background-color: transparent;
+}
+
+.forest .btn.btn-block, .forest button:not(.default).btn-block, .forest input[type=button]:not(.default).btn-block, .forest input[type=submit]:not(.default).btn-block {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: auto;
+}
+
+.forest .btn, .forest button:not(.default), .forest input[type=button]:not(.default), .forest input[type=submit]:not(.default) {
+    -webkit-border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px;
+    -moz-background-clip: padding;
+    border-radius: 3px;
+    background-clip: padding-box;
+    -webkit-transition: color 0.2s ease, border 0.2s ease, background 0.2s ease, -webkit-box-shadow 0.2s ease;
+    -moz-transition: color 0.2s ease, border 0.2s ease, background 0.2s ease, -moz-box-shadow 0.2s ease;
+    -o-transition: color 0.2s ease, border 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+    transition: color 0.2s ease, border 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+    margin: 0 7px;
+    display: inline-block;
+    min-width: 144px;
+    max-width: 100%;
+    padding: 15px 25px;
+    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+}
+
+.forest strong {
+    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.forest .base-clr-txt, .forest .highlight, .forest a, .forest .fa, .forest .icon, .forest blockquote:before, .forest blockquote:after, .forest .btn, .forest button:not(.default), .forest input[type=button]:not(.default), .forest input[type=submit]:not(.default), .forest .btn.btn-outline:active, .forest button:not(.default).btn-outline:active, .forest input[type=button]:not(.default).btn-outline:active, .forest input[type=submit]:not(.default).btn-outline:active, .forest .btn.btn-outline:hover, .forest button:not(.default).btn-outline:hover, .forest input[type=button]:not(.default).btn-outline:hover, .forest input[type=submit]:not(.default).btn-outline:hover, .forest .btn.btn-outline:focus, .forest button:not(.default).btn-outline:focus, .forest input[type=button]:not(.default).btn-outline:focus, .forest input[type=submit]:not(.default).btn-outline:focus, .forest .btn.btn-outline.hovered, .forest button:not(.default).btn-outline.hovered, .forest input[type=button]:not(.default).btn-outline.hovered, .forest input[type=submit]:not(.default).btn-outline.hovered, .forest .btn.btn-outline.pressed, .forest button:not(.default).btn-outline.pressed, .forest input[type=button]:not(.default).btn-outline.pressed, .forest input[type=submit]:not(.default).btn-outline.pressed, .forest .btn.btn-no-border:hover, .forest button:not(.default).btn-no-border:hover, .forest input[type=button]:not(.default).btn-no-border:hover, .forest input[type=submit]:not(.default).btn-no-border:hover, .forest .btn.btn-no-border:active, .forest button:not(.default).btn-no-border:active, .forest input[type=button]:not(.default).btn-no-border:active, .forest input[type=submit]:not(.default).btn-no-border:active, .forest .btn.btn-no-border:focus, .forest button:not(.default).btn-no-border:focus, .forest input[type=button]:not(.default).btn-no-border:focus, .forest input[type=submit]:not(.default).btn-no-border:focus, .forest .btn.btn-no-border.hovered, .forest button:not(.default).btn-no-border.hovered, .forest input[type=button]:not(.default).btn-no-border.hovered, .forest input[type=submit]:not(.default).btn-no-border.hovered, .forest .btn.btn-no-border.pressed, .forest button:not(.default).btn-no-border.pressed, .forest input[type=button]:not(.default).btn-no-border.pressed, .forest input[type=submit]:not(.default).btn-no-border.pressed, .forest .well h1, .forest .well h2, .forest .well h3, .forest .well h4, .forest .well h5, .forest .well h6, .forest .well .heading, .forest .well .icon, .forest .form.form-outline.form-outline-black .btn.btn-outline:hover, .forest .form.form-outline.form-outline-black .btn.btn-outline:active, .forest .team-member .name, .forest .team-member .socials-block > li .fa, .forest .featured-tab li > a .tab-title, .forest .package-column .package-price, .forest .countdown .counter:after, .forest .countdown .counter .stat-info, .forest .countdown .counter .stat, .forest .post-title a:hover, .forest .post-meta span > a:hover, .forest .post-meta span > a:active, .forest .post-meta span > a:focus, .forest .product-list.material-view .product-controls .btn:hover, .forest .product-list.material-view .product-controls .btn:active, .forest .product-list.material-view .product-controls .btn:focus, .forest .cart-checkout-navigation-list > li:hover .cart-checkout-navigation-list-item-link, .forest .cart-checkout-navigation-list > li.active .cart-checkout-navigation-list-item-link, .forest .cart-list-item-amount, .forest .billing-details-form .result .cart-ammount, .forest .navigation-header .navigation-bar > li:not(.featured) > a:hover, .forest .navigation-header .navigation-bar.navigation-bar-left > li.active > a, .forest .navigation-header .navigation-bar li.dropdown:not(.featured).opened > .dropdown-toggle, .forest .navigation-header.white-dropdown .navigation-bar li.dropdown:not(.featured).opened > .dropdown-toggle, .forest .navigation-header .navigation-bar li.dropdown:not(.featured) > .dropdown-menu > .dropdown.opened > .dropdown-toggle, .forest .navigation-header.white-dropdown .navigation-bar li.dropdown:not(.featured) > .dropdown-menu > .dropdown.opened > .dropdown-toggle, .forest .navigation-bar .dropdown-menu > li:hover > a, .forest .fixed-menu .navigation-header .btn.btn-outline, .forest .fixed-menu .navigation-header .navigation-bar.navigation-bar-left > li.active:not(.featured) > a, .forest .fixed-menu .navigation-header.white-dropdown .navigation-bar.navigation-bar-left > li.active:not(.featured) > a, .forest .navigation-header.white-header .btn.btn-outline, .forest .footer .list-inline li .icon, .forest .footer .list-unstyled li .icon, .forest .social-icons li .social, .forest .color-landing-page .guarantee-block, .forest .color-landing-page .guarantee-section .fa, .forest .color-landing-page .features-section .fa, .forest .color-landing-page .guarantee-section .icon, .forest .color-landing-page .features-section .icon, .forest .package-column:hover > .package-detail .btn.btn-outline-color:hover, .forest .package-column.featured > .package-detail .btn.btn-outline-color:hover, .forest .package-column:hover > .package-detail .btn.btn-outline-color:focus, .forest .package-column.featured > .package-detail .btn.btn-outline-color:focus {
+    color: #1ac6ff;
+}
+
+.forest .btn.btn-outline:hover, .forest button:not(.default).btn-outline:hover, .forest input[type=button]:not(.default).btn-outline:hover, .forest input[type=submit]:not(.default).btn-outline:hover, .forest .btn.btn-outline:focus, .forest button:not(.default).btn-outline:focus, .forest input[type=button]:not(.default).btn-outline:focus, .forest input[type=submit]:not(.default).btn-outline:focus, .forest .btn.btn-outline.hovered, .forest button:not(.default).btn-outline.hovered, .forest input[type=button]:not(.default).btn-outline.hovered, .forest input[type=submit]:not(.default).btn-outline.hovered, .forest .btn.btn-outline.pressed, .forest button:not(.default).btn-outline.pressed, .forest input[type=button]:not(.default).btn-outline.pressed, .forest input[type=submit]:not(.default).btn-outline.pressed, .forest .package-column:hover > .package-detail .btn.btn-outline-color:hover, .forest .package-column.featured > .package-detail .btn.btn-outline-color:hover, .forest .package-column:hover > .package-detail .btn.btn-outline-color:focus, .forest .package-column.featured > .package-detail .btn.btn-outline-color:focus {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.forest .btn.btn-outline, .forest button:not(.default).btn-outline, .forest input[type=button]:not(.default).btn-outline, .forest input[type=submit]:not(.default).btn-outline, .forest .package-column:hover > .package-detail .btn.btn-outline-color, .forest .package-column.featured > .package-detail .btn.btn-outline-color {
+    border-color: #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.forest .base-clr-bg, .forest .btn:hover, .forest button:not(.default):hover, .forest input[type=button]:not(.default):hover, .forest input[type=submit]:not(.default):hover, .forest .btn:focus, button:not(.default):focus, .forest input[type=button]:not(.default):focus, .forest input[type=submit]:not(.default):focus, .forest .btn.hovered, .forest button:not(.default).hovered, .forest input[type=button]:not(.default).hovered, .forest input[type=submit]:not(.default).hovered, .forest .btn.btn-solid, .forest button:not(.default).btn-solid, .forest input[type=button]:not(.default).btn-solid, .forest input[type=submit]:not(.default).btn-solid, .forest .btn.btn-outline-color:hover, .forest button:not(.default).btn-outline-color:hover, .forest input[type=button]:not(.default).btn-outline-color:hover, .forest input[type=submit]:not(.default).btn-outline-color:hover, .forest .btn.btn-outline-color:focus, .forest button:not(.default).btn-outline-color:focus, .forest input[type=button]:not(.default).btn-outline-color:focus, .forest input[type=submit]:not(.default).btn-outline-color:focus, .forest .btn.btn-outline-color:active, .forest button:not(.default).btn-outline-color:active, .forest input[type=button]:not(.default).btn-outline-color:active, .forest input[type=submit]:not(.default).btn-outline-color:active, .forest .btn.btn-outline-color.hovered, .forest button:not(.default).btn-outline-color.hovered, .forest input[type=button]:not(.default).btn-outline-color.hovered, .forest input[type=submit]:not(.default).btn-outline-color.hovered, .forest .btn.btn-outline-color.pressed, .forest button:not(.default).btn-outline-color.pressed, .forest input[type=button]:not(.default).btn-outline-color.pressed, .forest input[type=submit]:not(.default).btn-outline-color.pressed, .forest .dropdown-menu li a:hover, .forest .dropdown-menu li a:focus, .forest .dropdown-menu li.active a, .forest .dropdown-menu li.active a:hover, .forest .dropdown-menu li.active a:focus, .forest .nav-tabs > li > a:hover, .forest .nav-tabs > li > a:active, .forest .nav-tabs > li > a:focus, .forest .nav-tabs.alt > li > a:hover, .forest .nav-tabs.alt > li > a:active, .forest .nav-tabs.alt > li > a:focus, .forest .nav-tabs.alt > li.active a, .forest .panel-group .panel .panel-heading a, .forest .table > thead > tr > th, .forest .thumb-wrapper .overlay, .forest .progress-wrapper .progress .progress-bar, .forest .team-member .overlay-wrapper:before, .forest .team-member .socials-block > li a, .forest .long-block, .forest .featured-tab li.active > a .tab-info, .forest .featured-tab li.active > a .tab-icon, .forest .package-column:hover, .forest .package-column.featured, .forest .post-thumbnail a:after, .forest .blog-tags .tags-item a:hover, .forest .blog-tags .tags-item a:active, .forest .blog-tags .tags-item a:focus, .forest .product-list.material-view .product:hover .product-price-wrapper:before, .forest .product-slider .bx-controls-direction a:hover, .forest .cart-checkout-navigation-list > li:hover .cart-checkout-navigation-list-item-link:before, .forest .cart-checkout-navigation-list > li.active .cart-checkout-navigation-list-item-link:before, .forest .cart-list thead th:before, .forest .payment-confirm .table thead th:before, .forest .cart-list-item-meta:before, .forest .cart-list-item-remove, .forest .payment-method:before, .forest .payment-method .pseudo-radio:after, .forest .navigation-header .navigation-toggle .icon-bar, .forest .fixed-menu .navigation-header .btn.btn-outline:hover, .forest .fixed-menu .navigation-header .btn.btn-outline:active, .forest .navigation-header.white-header .btn.btn-outline:hover, .forest .navigation-header.white-header .btn.btn-outline:active, .forest .static-header.waiting-list-version ul li:before, .forest .color-landing-page .static-header, .forest .color-landing-page .newsletter-section, .forest .color-landing-page .feedback-section, .forest .color-landing-page .footer {
+    background-color: #1ac6ff;
+}
+
+.forest .base-clr-bd, .forest .preloader-mask .preloader .spin, .forest .btn, .forest button:not(.default), .forest input[type=button]:not(.default), .forest input[type=submit]:not(.default), .forest .dropdown-toggle, .forest .dropdown-menu, .forest .well, .forest .form .form-control, .forest .form.form-outline.form-outline-black .btn.btn-outline:hover, .forest .form.form-outline.form-outline-black .btn.btn-outline:active, .forest textarea, .forest input[type=text], .forest input[type=url], .forest input[type=tel], .forest input[type=number], .forest input[type=color], .forest input[type=email], .forest input[type=email], .forest input[type=password], .forest .flex-manual .switch.flex-active, .forest .team-member .socials-block > li a, .forest .cart-checkout-navigation-list > li.active .cart-checkout-navigation-list-item-link, .forest .cart-checkout-navigation-list-item-link:after, .forest .payment-method .pseudo-radio, .forest .navigation-header .navigation-bar.navigation-bar-left > li.active > a, .forest .navigation-bar > .dropdown:not(.featured) > .dropdown-toggle:before, .forest .navigation-header .navigation-bar li.dropdown:not(.featured), .forest .navigation-header.white-dropdown .navigation-bar li.dropdown:not(.featured), .forest .navigation-header .navigation-bar li.dropdown:not(.featured) > .dropdown-menu > .dropdown, .forest .navigation-header.white-dropdown .navigation-bar li.dropdown:not(.featured) > .dropdown-menu > .dropdown, .forest .fixed-menu .navigation-header .btn.btn-outline, .forest .fixed-menu .navigation-header .navigation-bar.navigation-bar-left > li.active:not(.featured) > a, .forest .fixed-menu .navigation-header.white-dropdown .navigation-bar.navigation-bar-left > li.active:not(.featured) > a, .forest .navigation-header.white-header .btn.btn-outline, .forest .form-register.form-register-small .form-control {
+    border-color: #1ac6ff;
+}
+
+.package-column {
+    -webkit-transition: background 0.25s ease-in-out;
+    -moz-transition: background 0.25s ease-in-out;
+    -o-transition: background 0.25s ease-in-out;
+    transition: background 0.25s ease-in-out;
+    border: 1px solid #f0f0f0;
+    background-color: #f7f7f7;
+}
+
+.package-column > .package-price .price, .package-column > .package-price .period, .package-column > .package-title, .package-column > .package-detail ul li {
+    -webkit-transition: color 0.25s ease-in-out;
+    -moz-transition: color 0.25s ease-in-out;
+    -o-transition: color 0.25s ease-in-out;
+    transition: color 0.25s ease-in-out;
+}
+
+.package-column .package-title {
+    padding: 20px 0 18px;
+    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #474747;
+}
+
+.package-column .package-price {
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+    padding: 15px;
+    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    background-color: rgba(171, 172, 179, 0.1);
+}
+
+.package-column .package-price .price {
+    position: relative;
+    font-size: 115px;
+    font-weight: 300;
+    line-height: 125px;
+}
+
+.package-column .package-price .currency {
+    position: relative;
+    top: -40px;
+    font-size: 47px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.package-column .package-price .period {
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.package-column .package-detail {
+    padding: 30px 15% 50px;
+}
+
+.package-column .package-detail ul {
+    margin-bottom: 30px;
+}
+
+.package-column .package-detail ul li {
+    height: 56px;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #4c4c4c;
+    border-bottom: 1px solid #dadada;
+}
+
+.package-column .package-detail ul li:last-child {
+    border-bottom: none;
+}
+
+.package-column .package-detail .btn {
+    margin: 0;
+}
+
+.package-column.disabled, .package-column.disabled:hover {
+    opacity: 0.8;
+    pointer-events: none;
+}
+
+.package-column.disabled .package-title, .package-column.disabled:hover .package-title {
+    color: #8d8d8d;
+}
+
+.package-column.disabled .package-price .price, .package-column.disabled:hover .package-price .price, .package-column.disabled .package-price .period, .package-column.disabled:hover .package-price .period {
+    color: #aeaeae;
+}
+
+.package-column.disabled .package-detail ul li, .package-column.disabled:hover .package-detail ul li {
+    color: #8d8d8d;
+}
+
+.package-column.disabled .package-detail .btn, .package-column.disabled:hover .package-detail .btn {
+    color: #a4a4a4;
+    background: transparent;
+    border: 1px solid #a4a4a4;
+}
+
+.package-column:hover > .package-price, .package-column.featured > .package-price {
+    background-color: rgba(71, 72, 76, 0.2);
+}
+
+.package-column:hover > .package-detail ul li, .package-column.featured > .package-detail ul li {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.package-column:hover > .package-price .price, .package-column.featured > .package-price .price, .package-column:hover > .package-price .period, .package-column.featured > .package-price .period, .package-column:hover > .package-title, .package-column.featured > .package-title, .package-column:hover > .package-detail ul li, .package-column.featured > .package-detail ul li {
+    color: #ffffff;
+}
+

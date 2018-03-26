@@ -1,0 +1,42 @@
+/*::selection{background:transparent;}*/
+/*::-moz-selection{background:transparent;}*/
+.selectDropdown.style1{/* Size and position */position:relative;width:100%;margin:0 auto;padding:10px;/* Styles */background:#fff;border-radius:7px;border:1px solid rgba(0,0,0,0.15);box-shadow:0 1px 1px rgba(50,50,50,0.1);cursor:pointer;outline:none;/* Font settings */color:#525252;}
+.selectDropdown.style1:after{content:"";width:0;height:0;position:absolute;right:15px;top:50%;margin-top:-3px;border-width:6px 6px 0 6px;border-style:solid;border-color:#525252 transparent;}
+.selectDropdown.style1 .dropdown{/* Size & position */position:absolute;top:140%;left:0;right:0;z-index:1;/* Styles */background:white;border-radius:inherit;border:1px solid rgba(0,0,0,0.17);box-shadow:0 0 5px rgba(0,0,0,0.1);font-weight:400;-webkit-transition:all 0.5s ease-in;-moz-transition:all 0.5s ease-in;-ms-transition:all 0.5s ease-in;-o-transition:all 0.5s ease-in;transition:all 0.5s ease-in;list-style:none;/* Hiding */opacity:0;pointer-events:none;}
+.selectDropdown.style1.active,
+.selectDropdown.style1:hover{background:#e85200;color:#fff;}
+.selectDropdown.style1.active:after,
+.selectDropdown.style1:hover:after{border-top-color:#fff;}
+.selectDropdown.style1 .dropdown:after{content:"";width:0;height:0;position:absolute;bottom:100%;right:15px;border-width:0 6px 6px 6px;border-style:solid;border-color:#fff transparent;}
+.selectDropdown.style1 .dropdown:before{content:"";width:0;height:0;position:absolute;bottom:100%;right:13px;border-width:0 8px 8px 8px;border-style:solid;border-color:rgba(0,0,0,0.1) transparent;}
+.selectDropdown.style1 .dropdown li a{display:block;padding:10px;text-decoration:none;color:#525252;border-bottom:1px solid #e6e8ea;box-shadow:inset 0 1px 0 rgba(255,255,255,1);-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;-ms-transition:all 0.3s ease-out;-o-transition:all 0.3s ease-out;transition:all 0.3s ease-out;}
+.selectDropdown.style1 .dropdown li i{float:right;color:inherit;}
+.selectDropdown.style1 .dropdown li:first-of-type a{border-radius:7px 7px 0 0;}
+.selectDropdown.style1 .dropdown li:last-of-type a{border:none;border-radius:0 0 7px 7px;}
+/* Hover state */
+.selectDropdown.style1 .dropdown li:hover a{background:#f8f8f8;}
+/* Active state */
+.selectDropdown.style1.active .dropdown{opacity:1;pointer-events:auto;}
+/* No CSS3 support */
+.no-opacity .selectDropdown.style1 .dropdown,
+.no-pointerevents .selectDropdown.style1 .dropdown{display:none;opacity:1;/* If opacity support but no pointer-events support */pointer-events:auto;/* If pointer-events support but no pointer-events support */}
+.no-opacity .selectDropdown.style1.active .dropdown,
+.no-pointerevents .selectDropdown.style1.active .dropdown{display:block;}
+
+/* ( SIZE DROP DOWN CSS ) */
+.selectDropdown.style2{/* Size and position */position:relative;/* Enable absolute positionning for children and pseudo elements */width:100%;padding:10px;margin:0 0 35px 0;/* Styles */background:#e85200;color:#fff;outline:none;cursor:pointer;/* Font settings */}
+.selectDropdown.style2:after{content:"";width:0;height:0;position:absolute;right:16px;top:50%;margin-top:-2px;border-width:6px 6px 0 6px;border-style:solid;border-color:#fff transparent;}
+.selectDropdown.style2 .dropdown{/* Size & position */position:absolute;top:100%;left:0;right:0;z-index:3;/* Styles */background:#f8f8f8;list-style:none;font-weight:400;/* Cancels previous font-weight:600;*//* Hiding */opacity:0;pointer-events:none;}
+.selectDropdown.style2 .dropdown li a{display:block;text-decoration:none;color:#525252;padding:10px 10px;}
+/* Hover state */
+.selectDropdown.style2 .dropdown li:hover a{background:#fff;}
+/* Active state */
+.selectDropdown.style2.active .dropdown{opacity:1;pointer-events:auto;}
+.selectDropdown.style2.active:after{border-color:#e85200 transparent;border-width:0px 6px 6px 6px;margin-top:-3px;}
+.selectDropdown.style2.active{background:#e85200;background:-moz-linear-gradient(left, #e85200 0%, #e85200 82%, #f8f8f8 82%, #f8f8f8 100%);background:-webkit-gradient(linear, left top, right top, color-stop(0%,#e85200), color-stop(82%,#e85200), color-stop(82%,#f8f8f8), color-stop(100%,#f8f8f8));background:-webkit-linear-gradient(left, #e85200 0%,#e85200 82%,#f8f8f8 82%,#f8f8f8 100%);background:-o-linear-gradient(left, #e85200 0%,#e85200 82%,#f8f8f8 82%,#f8f8f8 100%);background:-ms-linear-gradient(left, #e85200 0%,#e85200 82%,#f8f8f8 82%,#f8f8f8 100%);background:linear-gradient(to right, #e85200 0%,#e85200 82%,#f8f8f8 82%,#f8f8f8 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e85200', endColorstr='#f8f8f8',GradientType=1 );
+}
+/* No CSS3 support */
+.no-opacity .selectDropdown.style2 .dropdown,
+.no-pointerevents .selectDropdown.style2 .dropdown{display:none;opacity:1;/* If opacity support but no pointer-events support */pointer-events:auto;/* If pointer-events support but no pointer-events support */}
+.no-opacity .selectDropdown.style2.active .dropdown,
+.no-pointerevents .selectDropdown.style2.active .dropdown{display:block;}

@@ -1,0 +1,11 @@
+.btn-reklama {
+    text-align: center;
+}
+.btn-reklama > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+.btn-reklama > a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'Goods' => 'Товари',
+    'Price' => 'Ціна:',
+    'Buy_in_store' => 'Купити в магазинах',
+    'Popular_goods' => 'Популярні товари',
+    'Show_All_Categories' => 'Показати усі рубрики',
+    'Offers' => 'Пропозицій:',
+    'All_goods' => 'Усі товари',
+    'Products_Categories' => 'Категорії Товарів',
+    'Choose_the_parameters' => 'Підібрати за параметрами',
+    'Price_range' => 'Ціновий діапазон:',
+    'Companies' => 'Компанії:',
+    'Show_all_options' => 'Показати усі варіанти',
+    'Compare_prices' => 'Порівняти ціни',
+    'Buy' => 'Купити',
+    'No_price_offers' => 'Немає цінових пропозицій.',
+    'Select_store' => 'Вибрати магазин',
+    'Specifications' => 'Технічні характеристики',
+    'Photo' => 'Фото',
+    'Video' => 'Відео',
+    'Prices_in_shops' => 'Ціни в магазинах',
+    'Similar_products_from_the_category' => 'Схожі товари з рубрики',
+    'Manufacturer' => 'Виробник',
+    'pattern' => 'Модель',
+    'Detailed_Specifications' => 'Детальні характеристики',
+    'Gallery' => 'Фотогалерея',
+    'Video_Gallery' => 'Відеогалерея',
+    'Product' => 'Товари',
+    
+];

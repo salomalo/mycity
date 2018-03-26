@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01.09.2015, 13:05:11
+    Author     : dima
+*/
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #777;
+    border-color: #337ab7;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 10px 10px;
+    margin: 2px 0 0;
+    font-size: 14px;
+    list-style: none;
+    /*background-color: #777;*/
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    background-clip: padding-box;
+}
+
+.sidebar-menu .dropdown-menu{
+    background-color: #777;
+}
+
+div.language{
+    /*padding: 0;*/
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+}
+div.language a{
+    padding: 0;
+    margin: 0 0 0 5px;
+}
+div.language a.active{
+    padding: 0 1px 1px 1px;
+    border: 2px solid red;
+}
+
+td.id-error{
+    color: #ff0000;
+}
